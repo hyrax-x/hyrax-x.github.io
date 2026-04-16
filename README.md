@@ -9,4 +9,4 @@ The project started at the beginning of March 2026.
 Right now, it is still under construction, so nothing much.
 
 ## Update:
-Since I decided to rebrand myself, + the current design looks boring, and I want to include React, Next.js and Contentful, I will stop updating this project to create a better one.
+Version 3.0 of the website. Hard code content for now but I will look into implementing database after.
