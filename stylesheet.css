@@ -11,6 +11,7 @@
 
   --color-secondary-1: #6af299;
   --color-secondary-1-90a: #6af299e6;
+  --color-secondary-1-50a: #6af29980;
   --color-secondary-1-25a: #6af29940;
   --color-secondary-2: #51d676;
   --color-secondary-3: #114e40;
@@ -35,9 +36,12 @@
   --glow-other: 0 0 var(--glow-blur-1) 0 var(--color-other-25a);
 
   /** ---BORDER EFFECT--- */
-  --border-main-2: 2px solid var(--color-main-2);
-  --border-main-2-50a: 2px solid var(--color-main-2-50a);
-  --border-main-4: 2px solid var(--color-main-4);
+  --border-size: 2px;
+
+  --border-main-2: var(--border-size) solid var(--color-main-2);
+  --border-main-2-50a: var(--border-size) solid var(--color-main-2-50a);
+  --border-main-4: var(--border-size) solid var(--color-main-4);
+  --border-secondary-3: var(--border-size) solid var(--color-secondary-3);
 }
 
 /** --font-- */
@@ -92,17 +96,18 @@ html {
 }
 
 /** ---PUBLIC--- */
-
-body {
-  background-color: var(--color-main-4);
-  border: var(--border-main-2);
+* {
+  color: var(--color-main-2);
 }
 
 /** ---STYLE RESET--- */
 * {
-  /* reset */
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+.display-none {
+  display: none;
 }
 .link-style-none {
   text-decoration: none;
@@ -237,7 +242,7 @@ body {
   }
 }
 
-/** --NAV button-- */
+/** --FILTER button-- */
 .nav-button {
   font-family: var(--ff-kode);
   min-height: calc(4rem - 4px);
@@ -255,11 +260,14 @@ body {
   background-color: var(--color-main-2-5a);
   color: var(--color-main-1);
 }
-.nav-button:active,
-.nav-button.active {
+input[type="radio"]:checked + label.nav-button {
   background-color: var(--color-highlight-1-70a);
   color: var(--color-main-4);
   box-shadow: var(--glow-highlight);
+}
+input[type="radio"]:disabled + label.nav-button {
+  background-color: var(--color-other-10a);
+  color: var(--color-other-40a);
 }
 @media (width < 1370px) {
   .nav-button {
@@ -281,6 +289,10 @@ body {
   border-top: var(--border-main-2-50a);
   border-bottom: var(--border-main-2-50a);
 }
+.device-button > span {
+  position: absolute;
+  visibility: hidden;
+}
 .device-button-indicator {
   width: 2.5rem;
   height: 1.875rem;
@@ -293,46 +305,36 @@ body {
 
   transition: 300ms;
 }
-.device-button-indicator.active {
+#device-button-pc {
   background-color: var(--color-highlight-1-70a);
   box-shadow: var(--glow-highlight);
 }
+input[type="checkbox"]:checked + label.device-button #device-button-phone {
+  background-color: var(--color-highlight-1-70a);
+  box-shadow: var(--glow-highlight);
+}
+input[type="checkbox"]:checked + label.device-button #device-button-pc {
+  background-color: var(--color-main-2-5a);
+  box-shadow: none;
+}
 
-#device-button-pc:hover::after {
-  content: "PC mode";
-  font-family: var(--ff-kode);
-  font-size: var(--fs-tag);
+.device-button-indicator .pop-up {
   color: var(--color-main-2);
+  white-space: nowrap;
 
-  display: block;
-  width: 4rem;
-  height: fit-content;
   position: absolute;
   bottom: -30px;
   padding: 0px 4px;
   border: var(--border-main-2-50a);
 
   background-color: var(--color-main-4);
+  display: none;
+}
+.device-button-indicator:hover .pop-up {
+  display: inline;
 }
 
-#device-button-phone:hover::after {
-  content: "Phone mode";
-  font-family: var(--ff-kode);
-  font-size: var(--fs-tag);
-  color: var(--color-main-2);
-
-  display: block;
-  width: 6rem;
-  height: fit-content;
-  position: absolute;
-  bottom: -30px;
-  padding: 0px 4px;
-  border: var(--border-main-2-50a);
-
-  background-color: var(--color-main-4);
-}
-
-.device-button-indicator * {
+.device-button-indicator .icon {
   width: calc(1.25rem - 4px);
   height: calc(0.75rem - 4px);
 }
@@ -343,15 +345,65 @@ body {
   rotate: 90deg;
   border: var(--border-main-2);
 }
+input[type="checkbox"]:checked + label.device-button #phone-icon {
+  border: var(--border-main-4);
+}
+input[type="checkbox"]:checked + label.device-button #pc-icon {
+  border: var(--border-main-2);
+}
 
 @media (width >= 800px) {
-  #device-button-1 {
+  .device-button-1 {
     display: none;
   }
 }
 @media (width < 800px) {
-  #device-button-2 {
+  .device-button-2 {
     display: none;
+  }
+}
+
+/** --Scroll bar-- */
+::-webkit-scrollbar {
+  width: 1rem;
+  height: 1rem;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--color-secondary-3);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-secondary-1-50a);
+  border: var(--border-secondary-3);
+  box-shadow: var(--glow-secondary);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-highlight-1);
+  box-shadow: var(--glow-highlight);
+}
+/* @supports (
+  scrollbar-color: var(--color-secondary-1-50a) var(--color-secondary-3)
+) {
+  * {
+    scrollbar-color: var(--color-secondary-1-50a) var(--color-secondary-3);
+  }
+} */
+
+/** ---BODY--- */
+body {
+  background-color: var(--color-main-4);
+  /* outline: var(--border-main-2);
+  outline-offset: -2px; */
+
+  min-height: 100vh;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+
+  display: flex;
+  flex-direction: column;
+}
+@media (width > 800px) {
+  body {
+    max-height: 100vh;
   }
 }
 
@@ -367,7 +419,7 @@ body {
   gap: 1rem;
   flex-wrap: wrap;
 }
-#nav-bar ul {
+#nav-bar .filter-button {
   min-height: calc(4rem - 4px);
   min-width: 21.5625rem;
   display: flex;
@@ -400,6 +452,12 @@ body {
   }
 }
 
+/** ---MAIN--- */
 main {
-  background-color: red;
+  flex: 1;
+}
+@media (width > 800px) {
+  main {
+    overflow: auto;
+  }
 }
