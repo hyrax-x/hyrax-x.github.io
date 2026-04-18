@@ -474,8 +474,11 @@ input[type="checkbox"][id="device-button"]:checked
   align-content: flex-start;
   gap: 1rem;
 
+  break-inside: avoid;
+
   /* background-color: rgba(255, 0, 0, 0.166); */
   width: 306px;
+  margin-bottom: 3rem;
 }
 .card section {
   display: flex;
@@ -707,5 +710,5 @@ main {
 }
 
 #section-project-list {
-  display: grid;
+  columns: 306px;
 }
