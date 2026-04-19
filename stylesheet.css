@@ -344,6 +344,8 @@ html {
 .nav-button.disabled {
   background-color: var(--color-other-10a);
   color: var(--color-other-40a);
+  cursor: default;
+  pointer-events: none;
 }
 @media (width < 1155px) {
   .nav-button {
