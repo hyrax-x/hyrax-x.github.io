@@ -724,3 +724,8 @@ main {
   align-items: center;
   gap: 3rem;
 }
+
+/** -----ABOUT PAGE----- */
+#about-page-content {
+  display: flex;
+}
