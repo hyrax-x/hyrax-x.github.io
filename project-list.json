@@ -2,71 +2,131 @@
   {
     "title": "Puppets",
     "description": "",
-    "imagePath": "public/images/Puppet.JPG",
+    "imagePath": "public/images/Puppet.JPg",
+    "imageAlt": "",
+    "imageWidth": "400px",
+    "imageOffset": "50% 50%",
     "year": 2020,
-    "tags": ["Images"]
+    "type": "Image",
+    "tags": [],
+    "audio": "",
+    "path": ""
   },
   {
     "title": "Candles",
     "description": "",
     "imagePath": "public/images/Candle.jpg",
+    "imageAlt": "",
+    "imageWidth": "400px",
+    "imageOffset": "50% 50%",
     "year": 2023,
-    "tags": ["Images"]
+    "type": "Image",
+    "tags": [],
+    "audio": "",
+    "path": ""
   },
   {
     "title": "Couples",
     "description": "",
-    "imagePath": "public/images/Couples.JPG",
+    "imagePath": "public/images/Couples.JPg",
+    "imageAlt": "",
+    "imageWidth": "400px",
+    "imageOffset": "50% 50%",
     "year": 2020,
-    "tags": ["Images", "Daily life"]
+    "type": "Image",
+    "tags": ["Daily life"],
+    "audio": "",
+    "path": ""
   },
   {
     "title": "The street",
     "description": "",
-    "imagePath": "public/images/landscape 2.JPG",
+    "imagePath": "public/images/landscape 2.JPg",
+    "imageAlt": "",
+    "imageWidth": "400px",
+    "imageOffset": "50% 50%",
     "year": 2023,
-    "tags": ["Images", "Landscapes"]
+    "type": "Image",
+    "tags": ["Landscapes"],
+    "audio": "",
+    "path": ""
   },
   {
     "title": "Flowers",
     "description": "",
-    "imagePath": "public/images/Flower.JPG",
+    "imagePath": "public/images/Flower.JPg",
+    "imageAlt": "",
+    "imageWidth": "400px",
+    "imageOffset": "50% 50%",
     "year": 2020,
-    "tags": ["Images"]
+    "type": "Image",
+    "tags": [],
+    "audio": "",
+    "path": ""
   },
   {
     "title": "ARtistic Threads",
     "description": "This is an e-commerce for brand and Individual seller to sell clothes.",
     "imagePath": "public/images/project-thread/artistic-thread-mockup-1.png",
+    "imageAlt": "",
+    "imageWidth": "400px",
+    "imageOffset": "50% 50%",
     "year": 2024,
-    "tags": ["Projects", "UI/UX", "Figma Mockup"]
+    "type": "Project",
+    "tags": ["UI/UX", "Figma Mockup"],
+    "audio": "",
+    "path": ""
   },
   {
     "title": "Hydrocivik Website",
     "description": "This is a landing page about my own music producer brand.",
     "imagePath": "public/images/project-hydrocivik-site/hydrocivik-site-mockup-1.png",
+    "imageAlt": "",
+    "imageWidth": "400px",
+    "imageOffset": "50% 50%",
     "year": 2025,
-    "tags": ["Projects", "UI/UX", "Wordpress Elementor"]
+    "type": "Project",
+    "tags": ["UI/UX", "Wordpress Elementor"],
+    "audio": "",
+    "path": ""
   },
   {
     "title": "LinkUP",
     "description": "An app about learning language by connecting with people",
     "imagePath": "public/images/project-linkup/login page mockup.png",
+    "imageAlt": "",
+    "imageWidth": "400px",
+    "imageOffset": "50% 50%",
     "year": 2025,
-    "tags": ["Projects", "UI/UX", "Figma Mockup"]
+    "type": "Project",
+    "tags": ["UI/UX", "Figma Mockup"],
+    "audio": "",
+    "path": ""
   },
   {
     "title": "Khe Uoc Storyboard",
     "description": "",
     "imagePath": "public/images/project-kheuoc-storyboard/khe-uoc-storyboard.jpg",
+    "imageAlt": "",
+    "imageWidth": "400px",
+    "imageOffset": "50% 50%",
     "year": 2025,
-    "tags": ["Projects", "animation", "storyboard"]
+    "type": "Project",
+    "tags": ["animation", "storyboard"],
+    "audio": "",
+    "path": ""
   },
   {
     "title": "Chibi Play Guitar",
     "description": "",
     "imagePath": "public/images/Chibi-play-guitar.jpg",
+    "imageAlt": "",
+    "imageWidth": "400px",
+    "imageOffset": "50% 50%",
     "year": 2025,
-    "tags": ["Images", "Arts"]
+    "type": "Image",
+    "tags": ["Arts"],
+    "audio": "",
+    "path": ""
   }
 ]

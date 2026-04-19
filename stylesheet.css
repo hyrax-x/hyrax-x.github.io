@@ -477,8 +477,8 @@ input[type="checkbox"][id="device-button"]:checked
   break-inside: avoid;
 
   /* background-color: rgba(255, 0, 0, 0.166); */
-  width: 306px;
-  margin-bottom: 3rem;
+  width: 100%;
+  /* margin-bottom: 3rem; */
 }
 .card section {
   display: flex;
@@ -498,14 +498,14 @@ input[type="checkbox"][id="device-button"]:checked
   background-color: var(--color-main-2-5a);
 }
 .card section > img,
-.card.project section > img {
+.card.image section > img {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  height: 100%;
   object-fit: cover;
   object-position: 50% 50%;
 }
-.card.image section > img {
-  aspect-ratio: 1 / 1;
+.card.project section > img {
+  aspect-ratio: 16 / 9;
 }
 .card p {
   align-self: stretch;
@@ -708,7 +708,16 @@ main {
 #section-hero h1 {
   text-wrap: balance;
 }
-
+/** --Section Card list-- */
 #section-project-list {
-  columns: 306px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+#section-project-list .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
 }
