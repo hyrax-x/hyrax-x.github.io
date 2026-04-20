@@ -831,3 +831,16 @@ main {
   border-left: var(--border-main-2);
   border-right: var(--border-main-2);
 }
+
+/** -----MUSIC PAGE----- */
+#music-section-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+#music-section-content .text-box {
+  width: 100%;
+  height: fit-content;
+}
