@@ -535,7 +535,7 @@ input[type="checkbox"][id="device-button"]:checked
     width: calc(((100dvw - 1rem) - (var(--layout-pg-padding) * 2) - 1rem) / 2);
   }
 }
-@media (width < 984px) {
+@media (width < 550px) {
   .card {
     width: 100%;
   }
