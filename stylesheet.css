@@ -783,6 +783,7 @@ main {
   align-items: center;
   width: 100%;
   padding: 3rem 0;
+  gap: 3rem;
 }
 #about-page-content .col-1 {
   width: 100%;
@@ -793,6 +794,12 @@ main {
 @media (width < 800px) {
   #about-page-content {
     grid-template-columns: 1fr;
+  }
+  #about-page-content .col-1 {
+    padding-bottom: 0;
+  }
+  #about-page-content .col-2 {
+    padding-top: 2rem;
   }
 }
 /** ---Profile card--- */
