@@ -525,6 +525,16 @@ input[type="checkbox"][id="device-button"]:checked
   width: 100%;
   /* margin-bottom: 3rem; */
 }
+/* @media (width >= 984px) {
+  .card {
+    width: calc((960px - (1rem * 2)) / 3);
+  }
+}
+@media (width < 984px) {
+  .card {
+    width: calc((100dvw - (0.75rem * 2) - 1rem) / 2);
+  }
+} */
 .card section {
   display: flex;
   flex-direction: column;
