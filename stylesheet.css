@@ -464,6 +464,30 @@ input[type="checkbox"][id="device-button"]:checked
   background-color: var(--color-secondary-1-90a);
   color: var(--color-main-4);
 }
+/** --Text Box-- */
+.text-box {
+  position: relative;
+  padding: 1.5rem;
+  align-self: stretch;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+
+  border: var(--border-main-2);
+}
+.text-box.important {
+  border: var(--border-highlight-1);
+}
+.text-box > h2 {
+  padding: 0 0.5rem;
+  position: absolute;
+  left: 1rem;
+  top: -0.8125rem;
+
+  background: var(--color-main-4);
+}
 /** --Card button-- */
 .card-button {
   border-left: var(--border-main-2);
