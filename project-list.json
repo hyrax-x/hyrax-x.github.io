@@ -67,7 +67,7 @@
   {
     "title": "ARtistic Threads",
     "description": "This is an e-commerce for brand and Individual seller to sell clothes.",
-    "imagePath": "public/images/project-thread/thumbnail/mockup-1.webp",
+    "imagePath": "public/images/project-thread/thumbnail.webp",
     "imageAlt": "Person open up the app",
     "imageWidth": 550,
     "imageHeight": 367,
@@ -80,7 +80,7 @@
   {
     "title": "Hydrocivik Website",
     "description": "This is a landing page about my own music producer brand.",
-    "imagePath": "public/images/project-hydrocivik-site/thumbnail/mockup-1.webp",
+    "imagePath": "public/images/project-hydrocivik-site/thumbnail.webp",
     "imageAlt": "Computer on table with hero section of the website open",
     "imageWidth": 550,
     "imageHeight": 413,
@@ -93,7 +93,7 @@
   {
     "title": "LinkUP",
     "description": "An app about learning language by connecting with people",
-    "imagePath": "public/images/project-linkup/thumbnail/login page mockup.webp",
+    "imagePath": "public/images/project-linkup/thumbnail.webp",
     "imageAlt": "Phone with the app logo on the table",
     "imageWidth": 550,
     "imageHeight": 413,
