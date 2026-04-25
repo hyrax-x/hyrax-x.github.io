@@ -660,13 +660,13 @@ img.image-box {
   scroll-behavior: smooth;
   scrollbar-width: none;
 }
-.image-box .image-box-controler {
+.image-box .image-box-controller {
   align-self: stretch;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.image-box .image-box-controler div {
+.image-box .image-box-controller div {
   align-self: stretch;
   flex: 1 0 0;
   display: flex;
@@ -674,7 +674,7 @@ img.image-box {
   align-items: center;
   gap: 0.25rem;
 }
-.image-box .image-box-controler > *:not(*:last-child) {
+.image-box .image-box-controller > *:not(*:last-child) {
   border-right: var(--border-main-2);
 }
 .image-box .image-box-images img {
