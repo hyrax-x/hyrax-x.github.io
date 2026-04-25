@@ -77,7 +77,7 @@
   {
     "title": "ARtistic Threads",
     "description": "This is an e-commerce for brand and Individual seller to sell clothes.",
-    "imagePath": "public/images/project-thread/thumbnail.webp",
+    "imagePath": "public/projects/project-thread/thumbnail.webp",
     "imageAlt": "Person open up the app",
     "imageWidth": 550,
     "imageHeight": 367,
@@ -92,7 +92,7 @@
   {
     "title": "Hydrocivik Website",
     "description": "This is a landing page about my own music producer brand.",
-    "imagePath": "public/images/project-hydrocivik-site/thumbnail.webp",
+    "imagePath": "public/projects/project-hydrocivik-site/thumbnail.webp",
     "imageAlt": "Computer on table with hero section of the website open",
     "imageWidth": 550,
     "imageHeight": 413,
@@ -107,7 +107,7 @@
   {
     "title": "LinkUP",
     "description": "An app about learning language by connecting with people",
-    "imagePath": "public/images/project-linkup/thumbnail.webp",
+    "imagePath": "public/projects/project-linkup/thumbnail.webp",
     "imageAlt": "Phone with the app logo on the table",
     "imageWidth": 550,
     "imageHeight": 413,
@@ -122,7 +122,7 @@
   {
     "title": "Beauty in Design",
     "description": "This landing page highlights the most important design principle and explains why it matters.",
-    "imagePath": "public/images/project-beauty-in-design/thumbnail.webp",
+    "imagePath": "public/projects/project-beauty-in-design/thumbnail.webp",
     "imageAlt": "Hero section of the landing page",
     "imageWidth": 550,
     "imageHeight": 345,
@@ -137,7 +137,7 @@
   {
     "title": "Khe Uoc Storyboard",
     "description": "Storyboard based on the lyrics of the song Khe Uoc by The Flob",
-    "imagePath": "public/images/project-kheuoc-storyboard/thumbnail.webp",
+    "imagePath": "public/projects/project-kheuoc-storyboard/thumbnail.webp",
     "imageAlt": "title of the song wrapped with rose on top of the green glass field",
     "imageWidth": 550,
     "imageHeight": 309,
@@ -167,7 +167,7 @@
   {
     "title": "CyberRama",
     "description": "This landing page lets you explore famous Cyberpunk 2077 locations featured in Cyberpunk: Edgerunner through 360° images.",
-    "imagePath": "public/images/project-cyberrama/thumbnail.webp",
+    "imagePath": "public/projects/project-cyberrama/thumbnail.webp",
     "imageAlt": "Hero section of the CyberRama landing page",
     "imageWidth": 550,
     "imageHeight": 299,
