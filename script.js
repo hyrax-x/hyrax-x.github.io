@@ -31,15 +31,15 @@ async function getData() {
   return data;
 }
 function filterProjects(project) {
-  const PAGE_FILTER_OPTION = document
-    .getElementById("main-section-project-list")
-    .classList[0].replace("filter-", "")
-    .toLowerCase();
-  if (PAGE_FILTER_OPTION === "all") return true;
+  const section = document.getElementById("main-section-project-list");
+  const pageFilters = Array.from(section.classList)
+    .filter((className) => className.startsWith("filter-"))
+    .map((className) => className.replace("filter-", "").toLowerCase());
 
-  return project.tags
-    .map((tag) => tag.toLowerCase())
-    .includes(PAGE_FILTER_OPTION);
+  if (pageFilters.includes("all") || pageFilters.length === 0) return true;
+
+  const projectTags = project.tags.map((tag) => tag.toLowerCase());
+  return pageFilters.some((filter) => projectTags.includes(filter));
 }
 
 function initializeMasonryGrid() {
