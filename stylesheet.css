@@ -594,11 +594,13 @@ img.image-box {
   box-shadow: var(--glow-main);
 }
 .image-box h2,
+.image-box h1,
 .image-box p {
   align-self: stretch;
   padding: 0.5rem;
 }
-.image-box h2 {
+.image-box h2,
+.image-box h1 {
   background-color: var(--color-main-2-5a);
   box-shadow: var(--glow-main);
 }
