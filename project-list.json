@@ -150,6 +150,21 @@
     "path": "/project-khe-uoc-storyboard.html"
   },
   {
+    "title": "Yokai Meetup",
+    "description": "This illustration shows a meetup between the Yokai and your own Yokai within ",
+    "imagePath": "public/projects/project-yokai-meetup/thumbnail.webp",
+    "imageAlt": "The Illustration of Wet Draguun using Shiro-Uneri tail to clean the floor",
+    "imageWidth": 550,
+    "imageHeight": 380,
+    "imageOffset": "50% 50%",
+    "year": 2024,
+    "tags": ["Project", "Art"],
+    "audio": "",
+    "buttonText": "View Art",
+    "target": "_self",
+    "path": "/project-yokai-meetup.html"
+  },
+  {
     "title": "Chibi Play Guitar",
     "description": "",
     "imagePath": "public/images/Chibi-play-guitar.jpg",
