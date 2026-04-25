@@ -141,5 +141,18 @@
     "tags": ["Image", "Arts"],
     "audio": "",
     "path": ""
+  },
+  {
+    "title": "CyberRama",
+    "description": "This landing page lets you explore famous Cyberpunk 2077 locations featured in Cyberpunk: Edgerunner through 360° images.",
+    "imagePath": "public/images/project-cyberrama/thumbnail.webp",
+    "imageAlt": "Hero section of the CyberRama landing page",
+    "imageWidth": 550,
+    "imageHeight": 299,
+    "imageOffset": "50% 50%",
+    "year": 2024,
+    "tags": ["Project", "UI/UX", "Mobirise"],
+    "audio": "",
+    "path": "https://hyrax-x.github.io/cyberrama/"
   }
 ]
