@@ -2,17 +2,17 @@
   {
     "title": "Puppets",
     "description": "",
-    "imagePath": "public/images/Puppet.JPG",
-    "imageAlt": "",
+    "imagePath": "public/images/thumbnail/puppets-thumbnail.webp",
+    "imageAlt": "Image of 2 puppets",
     "imageWidth": 550,
-    "imageHeight": 550,
+    "imageHeight": 367,
     "imageOffset": "50% 50%",
     "year": 2020,
     "tags": ["Image"],
     "audio": "",
     "buttonText": "",
     "target": "_self",
-    "path": ""
+    "path": "/image-puppets.html"
   },
   {
     "title": "Candles",
