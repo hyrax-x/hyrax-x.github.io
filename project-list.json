@@ -226,17 +226,17 @@
   },
   {
     "title": "Album Packaging",
-    "description": "An album Packaging cover based on Virtual Self by Porter Robinson",
-    "imagePath": "public/projects/project-album-poster/thumbnail.webp",
+    "description": "",
+    "imagePath": "public/images/thumbnail/album-poster-thumbnail.webp",
     "imageAlt": "packaging for a Porter Robinson album",
     "imageWidth": 550,
     "imageHeight": 269,
     "imageOffset": "50% 50%",
     "year": 2024,
-    "tags": ["Project", "Design"],
+    "tags": ["Design"],
     "audio": "",
     "buttonText": "View Full",
     "target": "",
-    "path": "/project-album-packaging.html"
+    "path": "/image-album-packaging.html"
   }
 ]
