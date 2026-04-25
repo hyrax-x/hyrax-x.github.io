@@ -47,17 +47,17 @@
   {
     "title": "Flowers",
     "description": "",
-    "imagePath": "public/images/Flower.JPG",
-    "imageAlt": "",
+    "imagePath": "public/images/thumbnail/Flower-thumbnail.webp",
+    "imageAlt": "Close up image of a flower",
     "imageWidth": 550,
-    "imageHeight": 550,
+    "imageHeight": 367,
     "imageOffset": "50% 50%",
     "year": 2020,
     "tags": ["Image"],
     "audio": "",
     "buttonText": "",
     "target": "_self",
-    "path": ""
+    "path": "/image-flower.html"
   },
   {
     "title": "ARtistic Threads",
