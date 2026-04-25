@@ -1081,10 +1081,12 @@ main {
 }
 #about-page-content #about-profile-card img {
   width: 100%;
+  height: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
 
   border: var(--border-highlight-1);
+  border-bottom: none;
   box-shadow: var(--glow-highlight);
 }
 
