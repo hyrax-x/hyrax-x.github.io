@@ -145,7 +145,7 @@
     "year": 2025,
     "tags": ["Project", "Animation", "Storyboard", "Art"],
     "audio": "",
-    "buttonText": "View Storyboard",
+    "buttonText": "",
     "target": "_self",
     "path": "/project-khe-uoc-storyboard.html"
   },
@@ -175,7 +175,7 @@
     "year": 2024,
     "tags": ["Project", "Art"],
     "audio": "",
-    "buttonText": "View Art",
+    "buttonText": "",
     "target": "_self",
     "path": "/project-yokai-meetup.html"
   },
@@ -205,7 +205,7 @@
     "year": 2024,
     "tags": ["Project", "UI/UX", "Mobirise"],
     "audio": "",
-    "buttonText": "",
+    "buttonText": "View Landing Page",
     "target": "_blank",
     "path": "https://hyrax-x.github.io/cyberrama/"
   },
@@ -220,7 +220,7 @@
     "year": 2025,
     "tags": ["Project", "Design", "3D", "Voxel"],
     "audio": "",
-    "buttonText": "",
+    "buttonText": "View on Sketchfab",
     "target": "_blank",
     "path": "https://skfb.ly/pxP8Z"
   },
