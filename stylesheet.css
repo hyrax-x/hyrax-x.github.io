@@ -1018,6 +1018,7 @@ main {
 }
 .section-hero h1 {
   text-wrap: balance;
+  text-align: center;
 }
 /** --Section Card list-- */
 #main-section-project-list {

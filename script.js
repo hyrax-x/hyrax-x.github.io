@@ -126,7 +126,8 @@ function renderProjectCard(proj, colUl) {
   let a = document.createElement("a");
   a.classList.add("fs-h6", "link-style-none", "card-button");
   a.href = proj.path;
-  a.innerText = "Go to project";
+  a.innerText = proj.buttonText !== "" ? proj.buttonText : "View project";
+  a.target = proj.target;
 
   colUl.appendChild(projLi);
   projLi.appendChild(article);
@@ -167,7 +168,8 @@ function renderImageCard(proj, colUl) {
   let a = document.createElement("a");
   a.classList.add("fs-h6", "link-style-none", "card-button");
   a.href = proj.path;
-  a.innerText = "View full";
+  a.innerText = proj.buttonText !== "" ? proj.buttonText : "View full";
+  a.target = proj.target;
 
   colUl.appendChild(projLi);
   projLi.appendChild(article);

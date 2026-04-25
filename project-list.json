@@ -10,6 +10,8 @@
     "year": 2020,
     "tags": ["Image"],
     "audio": "",
+    "buttonText": "",
+    "target": "_self",
     "path": ""
   },
   {
@@ -23,6 +25,8 @@
     "year": 2023,
     "tags": ["Image"],
     "audio": "",
+    "buttonText": "",
+    "target": "_self",
     "path": ""
   },
   {
@@ -36,6 +40,8 @@
     "year": 2020,
     "tags": ["Image", "Daily life"],
     "audio": "",
+    "buttonText": "",
+    "target": "_self",
     "path": ""
   },
   {
@@ -49,6 +55,8 @@
     "year": 2023,
     "tags": ["Image", "Landscapes"],
     "audio": "",
+    "buttonText": "",
+    "target": "_self",
     "path": ""
   },
   {
@@ -62,6 +70,8 @@
     "year": 2020,
     "tags": ["Image"],
     "audio": "",
+    "buttonText": "",
+    "target": "_self",
     "path": ""
   },
   {
@@ -75,6 +85,8 @@
     "year": 2024,
     "tags": ["Project", "UI/UX", "Figma Mockup"],
     "audio": "",
+    "buttonText": "",
+    "target": "_self",
     "path": "/project-artistic-threads.html"
   },
   {
@@ -88,6 +100,8 @@
     "year": 2025,
     "tags": ["Project", "UI/UX", "Wordpress Elementor"],
     "audio": "",
+    "buttonText": "",
+    "target": "_self",
     "path": "/project-hydrocivik-site.html"
   },
   {
@@ -101,6 +115,8 @@
     "year": 2025,
     "tags": ["Project", "UI/UX", "Figma Mockup"],
     "audio": "",
+    "buttonText": "",
+    "target": "_self",
     "path": "/project-linkup.html"
   },
   {
@@ -114,6 +130,8 @@
     "year": 2024,
     "tags": ["Project", "UI/UX", "Figma Mockup"],
     "audio": "",
+    "buttonText": "",
+    "target": "_self",
     "path": "/project-beauty-in-design.html"
   },
   {
@@ -128,6 +146,8 @@
     "tags": ["Project", "animation", "storyboard"],
     "audio": "",
     "path": ""
+    "buttonText": "View Storyboard",
+    "target": "_self",
   },
   {
     "title": "Chibi Play Guitar",
@@ -138,8 +158,10 @@
     "imageHeight": 550,
     "imageOffset": "50% 50%",
     "year": 2025,
-    "tags": ["Image", "Arts"],
+    "tags": ["Art"],
     "audio": "",
+    "buttonText": "",
+    "target": "_self",
     "path": ""
   },
   {
@@ -153,6 +175,8 @@
     "year": 2024,
     "tags": ["Project", "UI/UX", "Mobirise"],
     "audio": "",
+    "buttonText": "",
+    "target": "_blank",
     "path": "https://hyrax-x.github.io/cyberrama/"
   }
 ]
