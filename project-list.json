@@ -32,17 +32,16 @@
   {
     "title": "Couples",
     "description": "",
-    "imagePath": "public/images/Couples.JPG",
-    "imageAlt": "",
+    "imagePath": "public/images/thumbnail/couple-thumbnail.webp",
+    "imageAlt": "Image of a Japanese couple laughing together",
     "imageWidth": 550,
-    "imageHeight": 550,
+    "imageHeight": 367,
     "imageOffset": "50% 50%",
     "year": 2020,
     "tags": ["Image", "Daily life"],
     "audio": "",
     "buttonText": "",
     "target": "_self",
-    "path": ""
     "path": "/image-couple.html"
   },
   {
