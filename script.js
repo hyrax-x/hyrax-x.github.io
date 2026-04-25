@@ -174,7 +174,7 @@ function renderImageCard(proj, colUl) {
   colUl.appendChild(projLi);
   projLi.appendChild(article);
   article.append(section, a);
-  section.append(img, h2, tagUl);
+  section.append(h2, img, tagUl);
 
   proj.tags.forEach((tag) => {
     let tagLi = document.createElement("li");

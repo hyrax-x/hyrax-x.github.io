@@ -778,15 +778,17 @@ img.image-box {
   gap: 0;
   align-self: stretch;
 
-  border: var(--border-main-2);
+  border: var(--border-highlight-1);
 }
 .card section > :not(*:last-child) {
-  border-bottom: var(--border-main-2);
+  border-bottom: var(--border-highlight-1);
 }
 .card h2 {
   padding: 1rem 0.5rem;
   width: 100%;
-  background-color: var(--color-main-2-5a);
+  background-color: var(--color-highlight-1-70a);
+  color: var(--color-main-4);
+  box-shadow: var(--glow-highlight);
 }
 .card section > img {
   width: 100%;
