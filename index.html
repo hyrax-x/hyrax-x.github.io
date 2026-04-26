@@ -3,195 +3,287 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/public/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/public/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/public/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/public/favicon/site.webmanifest" />
+    <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap"
       rel="stylesheet"
     />
-    <title>Home page - Hyrax-x</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="stylesheet.css" />
+    <!-- Meta data -->
+    <title>Hyrax-x - Home page</title>
     <meta name="description" content="Here is all my projects and works" />
   </head>
   <body>
     <header>
-      <nav>
-        <!-- TODO Create Navigation to about me page and other pages-->
-        <button type="button" onclick="openAboutMe()" class="title s">
-          Hyrax-x
-        </button>
+      <nav id="nav-bar">
+        <!-- link about page -->
+        <a href="about.html" class="logo-button link-style-none fs-h6">
+          [Hyrax-x]
+        </a>
+        <!-- filter -->
+        <div class="flex-1">
+          <div class="filter-wrap">
+            <div class="filter-list">
+              <div class="f-button nav-button link-style-none active">All</div>
+              <a
+                href="/tab-arts.html"
+                class="f-button nav-button link-style-none"
+              >
+                Arts
+              </a>
+              <a
+                href="/tab-images.html"
+                class="f-button nav-button link-style-none"
+              >
+                Images
+              </a>
+              <a
+                href="/tab-designs.html"
+                class="f-button nav-button link-style-none"
+              >
+                Designs
+              </a>
+              <a
+                href="/tab-uiux.html"
+                class="f-button nav-button link-style-none"
+              >
+                UI/UX
+              </a>
+              <a
+                href="/tab-musics.html"
+                class="f-button nav-button link-style-none"
+              >
+                Musics
+              </a>
+              <a
+                href="/tab-videos-and-animations.html"
+                class="f-button nav-button link-style-none"
+              >
+                Videos & Animations
+              </a>
+            </div>
+          </div>
+        </div>
+        <a
+          href="public/TONG-QUOC-VIET-CV.pdf"
+          target="_blank"
+          class="logo-button link-style-none fs-h6"
+        >
+          My CV
+        </a>
+        <!-- device checkbox -->
+        <!-- <form class="device-checkbox">
+          <input
+            type="checkbox"
+            name="device-check"
+            id="device-button"
+            class="display-none"
+          />
+          <label for="device-button" class="device-button f-tag">
+            <div id="device-button-pc" class="device-button-indicator active">
+              <div id="pc-icon" class="icon"></div>
+              <span class="pop-up">PC mode</span>
+            </div>
+            <div id="device-button-phone" class="device-button-indicator">
+              <div id="phone-icon" class="icon"></div>
+              <span class="pop-up">Phone mode</span>
+            </div>
+            <span>Computer and phone toggle</span>
+          </label>
+        </form> -->
       </nav>
-      <!-- TODO make this instruction follow Mavis Daemon button-->
-      <!-- <div id="instruction">
-          <img src="icons/Arrow 1.svg" alt="arrow up" />
-          <p class="cap">About me</p>
-        </div> -->
     </header>
 
-    <main>
-      <section class="hero">
-        <h1>Hi, Welcome to my website</h1>
-      </section>
+    <main class="layout-page-grid">
+      <div>
+        <section class="section-hero">
+          <h1 class="f-hero">
+            Hi,
+            <abbr title="Hello kaomoji" class="abbr-style-none">(´• ω •)ﾉ</abbr>
+          </h1>
 
-      <search>
-        <div class="search_bar">
-          <div class="search_input">
-            <img src="/icons/Search icon.svg" alt="search icon" />
-            <input type="search" placeholder="Search..." />
-          </div>
-          <button
-            type="button"
-            id="filter_button"
-            class="button"
-            onclick="openFilterList()"
-          >
-            <img src="/icons/Filter list icon.svg" alt="filter icon" />
-            All
-            <img
-              src="/icons/Arrow drop down icon.svg"
-              alt="arrow drop down icon"
-            />
-          </button>
-        </div>
-        <ul data-projects class="project_list">
-          <li data-project id="Hydrocivik" data-select="false">
-            <div class="card">
-              <div class="front">
-                <img
-                  src="https://res.cloudinary.com/dpzwk2l36/image/upload/v1773071903/hydrocivik_site_placeholder_whym0o.webp"
-                  alt="hydrocivik's site thumbnail"
-                  class="card_image"
-                />
-                <div class="pin">
-                  <img src="icons/pin icon.svg" alt="pin icon" />
-                </div>
-              </div>
-              <div class="back">
-                <div>
-                  <section>
-                    <h2 class="title s">Hydrocivik</h2>
-                    <p class="body s">
-                      This is a website to showcase my music.
-                    </p>
-                  </section>
-                  <div>
-                    <ul class="tags">
-                      <li class="tag">Website</li>
-                      <li class="tag">UX/UI</li>
-                      <!-- <li class="tag">Music</li>
-                    <li class="tag">Portfolio</li> -->
-                      <li>
-                        <button class="tag" type="button">+2</button>
-                      </li>
-                    </ul>
-                    <a
-                      href="https://hyrax-x.github.io/hydrocivik/"
-                      target="_blank"
-                      aria-label="Link to Hydrocivik web page"
-                    >
-                      <img
-                        src="icons/arrow forward icon.svg"
-                        alt="arrow icon"
-                      />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </search>
-    </main>
-    <div class="footer_placeholder"></div>
-    <footer>
-      <div class="upper_footer">
-        <section>
-          <h2 class="title s">Navigation</h2>
-          <ul>
-            <li>
-              <a
-                href="#"
-                aria-label="Scroll back to top of the page"
-                class="body s"
-              >
-                Back to top
-              </a>
-            </li>
-            <li>
-              <!-- TODO Link to the about me page-->
-              <p class="body s">About me</p>
-            </li>
-          </ul>
-        </section>
-        <div class="divider"></div>
-        <section class="time_loc">
-          <h2 class="title s">Time & Location</h2>
           <div>
-            <time datetime="" class="body s">
-              <span class="time">11:30</span>
-              <span class="utc">(UTC +1)</span>
-            </time>
-            <p class="body s">Warsaw, Poland</p>
+            <p class="f-body">
+              You can find all my information and contact details in the
+              <a href="/about.html" class="fw-b fc-highlight-1 link-style-none">
+                [Hyrax-x]
+              </a>
+              tab.
+            </p>
+            <p class="f-body">
+              The website is currently under construction. Please excuse any
+              temporary inconveniences.
+            </p>
+            <p class="f-body">
+              You can find my works below or use the filter option at the top.
+            </p>
+
+            <p class="f-body">
+              Enjoy!
+              <abbr
+                class="fc-secondary-1 abbr-style-none"
+                title="Happy kaomoji"
+              >
+                >ᴗ< !!
+              </abbr>
+            </p>
           </div>
         </section>
-        <div class="divider"></div>
-        <section>
-          <h2 class="title s">Contact me</h2>
-          <p class="body s">tong.quocviet1234@gmail.com</p>
-          <ul>
+
+        <section id="main-section-project-list" class="filter-all">
+          <!-- <ul id="col-1" class="col ul-style-none">
             <li>
-              <a
-                href="https://www.youtube.com/@Hydrocivik"
-                target="_blank"
-                aria-label="Link to my youtube channel"
-              >
-                <img src="/icons/youtube icon.svg" alt="Youtube icon" />
-              </a>
+              <article class="card project">
+                
+                <section>
+                  <h2 class="f-title-m">example</h2>
+                  <img
+                    src="/public/mavis site bg 4k.webp"
+                    alt=""
+                    width="172px"
+                  />
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quas, soluta mollitia nobis sit dolorem necessitatibus
+                    perferendis. Dolorem officia nostrum est obcaecati. Nobis
+                    officia rerum explicabo, consequatur nostrum aperiam minima
+                    corrupti!
+                  </p>
+                  <ul class="ul-style-none">
+                    <li class="tag f-tag">tag</li>
+                    <li class="tag f-tag">Supper duper long as fuck tag</li>
+                  </ul>
+                </section>
+                <a href="/" class="fs-h6 link-style-none card-button">
+                  Go to project
+                </a>
+              </article>
             </li>
             <li>
-              <a
-                href="https://www.instagram.com/hyrax.zip"
-                target="_blank"
-                aria-label="Link to my instagram"
-              >
-                <img src="/icons/instagram icon.svg" alt="Instagram icon" />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.facebook.com/viet.tongquoc.9843/"
-                target="_blank"
-                aria-label="Link to my facebook account"
-              >
-                <img src="/icons/facebook icon.svg" alt="Facebook icon" />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://bsky.app/profile/hyrax-x.bsky.social"
-                target="_blank"
-                aria-label="Link to my Bluesky account"
-              >
-                <img src="/icons/bluesky icon.svg" alt="Bluesky icon" />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/hyrax-x"
-                target="_blank"
-                aria-label="Link to my Github account"
-              >
-                <img src="/icons/github icon.svg" alt="Github icon"
-              /></a>
+              <article class="card project">
+                
+                <section>
+                  <h2 class="f-title-m">Supper long as fuck title</h2>
+                  <img
+                    src="/public/mavis site bg 4k.webp"
+                    alt=""
+                    width="172px"
+                  />
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quas, soluta mollitia nobis sit dolorem necessitatibus
+                    perferendis. Dolorem officia nostrum est obcaecati. Nobis
+                    officia rerum explicabo, consequatur nostrum aperiam minima
+                    corrupti!
+                  </p>
+                  <ul class="ul-style-none">
+                    <li class="tag f-tag">tag</li>
+                    <li class="tag f-tag">Supper duper long as fuck tag</li>
+                  </ul>
+                </section>
+                <a href="/" class="fs-h6 link-style-none card-button">
+                  Go to project
+                </a>
+              </article>
             </li>
           </ul>
+          <ul id="col-2" class="col ul-style-none">
+            <li>
+              <article class="card image">
+                
+                <section>
+                  <img
+                    src="/public/mavis site bg 4k.webp"
+                    alt=""
+                    width="172px"
+                  />
+                  <h2 class="f-title-s">Supper long as fuck title</h2>
+                  <ul class="ul-style-none">
+                    <li class="tag f-tag">tag</li>
+                    <li class="tag f-tag">Supper duper long as fuck tag</li>
+                  </ul>
+                </section>
+                <a href="/" class="fs-h6 link-style-none card-button">
+                  View full image
+                </a>
+              </article>
+            </li>
+            <li>
+              <article class="card project">
+                
+                <section>
+                  <h2 class="f-title-m">Supper long as fuck title</h2>
+                  <img
+                    src="/public/mavis site bg 4k.webp"
+                    alt=""
+                    width="172px"
+                  />
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quas, soluta mollitia nobis sit dolorem necessitatibus
+                    perferendis. Dolorem officia nostrum est obcaecati. Nobis
+                    officia rerum explicabo, consequatur nostrum aperiam minima
+                    corrupti!
+                  </p>
+                  <ul class="ul-style-none">
+                    <li class="tag f-tag">tag</li>
+                    <li class="tag f-tag">Supper duper long as fuck tag</li>
+                  </ul>
+                </section>
+                <a href="/" class="fs-h6 link-style-none card-button">
+                  Go to project
+                </a>
+              </article>
+            </li>
+          </ul>
+          <ul id="col-3" class="col ul-style-none">
+            <li>
+              <article class="card image">
+                
+                <section>
+                  <img
+                    src="/public/mavis site bg 4k.webp"
+                    alt=""
+                    width="172px"
+                  />
+                  <h2 class="f-title-s">Supper long as fuck title</h2>
+                  <ul class="ul-style-none">
+                    <li class="tag f-tag">tag</li>
+                    <li class="tag f-tag">Supper duper long as fuck tag</li>
+                  </ul>
+                </section>
+                <a href="/" class="fs-h6 link-style-none card-button">
+                  View full image
+                </a>
+              </article>
+            </li>
+          </ul> -->
         </section>
       </div>
-      <div class="lower_footer">
-        <p class="title">Hyrax-x</p>
-        <p class="cap s">License</p>
-      </div>
-    </footer>
+    </main>
+
     <script src="script.js"></script>
   </body>
 </html>
