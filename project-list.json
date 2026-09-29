@@ -137,7 +137,7 @@
   {
     "title": "Soup Animation",
     "description": "An animation representing different culture though the process of make traditional soup",
-    "imagePath": "public/images/CCCD-animation-thumbnail.webp",
+    "imagePath": "public/images/thumbnail/CCCD-animation-thumbnail.webp",
     "imageAlt": "Image of vietnamese soup",
     "imageWidth": 550,
     "imageHeight": 3555,
