@@ -75,21 +75,6 @@
     "path": "/project-artistic-threads.html"
   },
   {
-    "title": "Hydrocivik Website",
-    "description": "This is a landing page about my own music producer brand.",
-    "imagePath": "public/projects/project-hydrocivik-site/thumbnail.webp",
-    "imageAlt": "Computer on table with hero section of the website open",
-    "imageWidth": 550,
-    "imageHeight": 413,
-    "imageOffset": "50% 50%",
-    "year": 2025,
-    "tags": ["Project", "UI/UX", "Wordpress Elementor"],
-    "audio": "",
-    "buttonText": "",
-    "target": "_self",
-    "path": "/project-hydrocivik-site.html"
-  },
-  {
     "title": "LinkUP",
     "description": "An app about learning language by connecting with people",
     "imagePath": "public/projects/project-linkup/thumbnail.webp",
@@ -103,6 +88,21 @@
     "buttonText": "",
     "target": "_self",
     "path": "/project-linkup.html"
+  },
+  {
+    "title": "Hydrocivik Website",
+    "description": "This is a landing page about my own music producer brand.",
+    "imagePath": "public/projects/project-hydrocivik-site/thumbnail.webp",
+    "imageAlt": "Computer on table with hero section of the website open",
+    "imageWidth": 550,
+    "imageHeight": 413,
+    "imageOffset": "50% 50%",
+    "year": 2025,
+    "tags": ["Project", "UI/UX", "Wordpress Elementor"],
+    "audio": "",
+    "buttonText": "",
+    "target": "_self",
+    "path": "/project-hydrocivik-site.html"
   },
   {
     "title": "Beauty in Design",
@@ -120,6 +120,51 @@
     "path": "/project-beauty-in-design.html"
   },
   {
+    "title": "Animation for internship at Museum",
+    "description": "A frame-by-frame 2D animation depicts the collector's memories",
+    "imagePath": "public/images/thumbnail/museum-animation-thumbnail.webp",
+    "imageAlt": "A frame of the animation. Depicting main character look up into the light.",
+    "imageWidth": 550,
+    "imageHeight": 309,
+    "imageOffset": "50% 50%",
+    "year": 2026,
+    "tags": ["Project", "Animation"],
+    "audio": "",
+    "buttonText": "View on Youtube",
+    "target": "_blank",
+    "path": "https://youtu.be/sdrMmiscF40?si=-WFsGOK8bLtPn4Vj"
+  },
+  {
+    "title": "Animation for internship at Planetarium",
+    "description": "TouchDesigner Visual for Dome projection. Internship at Planetarium Warszawa for a music festival",
+    "imagePath": "public/images/thumbnail/dome-animation-thumbnail.webp",
+    "imageAlt": "A frame of the animation. Depicting low poly 3D shape spinning and transforming around a point in space",
+    "imageWidth": 550,
+    "imageHeight": 550,
+    "imageOffset": "50% 50%",
+    "year": 2025,
+    "tags": ["Project", "Animation"],
+    "audio": "",
+    "buttonText": "View on Youtube",
+    "target": "_blank",
+    "path": "https://youtu.be/EQ_KMXrsM3Q?si=oYxsVAk4WjlmAQDz"
+  },
+  {
+    "title": "Soup Animation",
+    "description": "An animation representing different culture though the process of make traditional soup",
+    "imagePath": "public/images/thumbnail/CCCD-animation-thumbnail.webp",
+    "imageAlt": "Image of vietnamese soup",
+    "imageWidth": 550,
+    "imageHeight": 309,
+    "imageOffset": "50% 50%",
+    "year": 2025,
+    "tags": ["Project", "Animation"],
+    "audio": "",
+    "buttonText": "View on Youtube",
+    "target": "_blank",
+    "path": "https://youtu.be/umxPajkTJxY?si=k1kkfDngW40-QH2g"
+  },
+  {
     "title": "Khe Uoc Storyboard",
     "description": "Storyboard based on the lyrics of the song Khe Uoc by The Flob",
     "imagePath": "public/projects/project-kheuoc-storyboard/thumbnail.webp",
@@ -133,36 +178,6 @@
     "buttonText": "",
     "target": "_self",
     "path": "/project-khe-uoc-storyboard.html"
-  },
-  {
-    "title": "Soup Animation",
-    "description": "An animation representing different culture though the process of make traditional soup",
-    "imagePath": "public/images/thumbnail/CCCD-animation-thumbnail.webp",
-    "imageAlt": "Image of vietnamese soup",
-    "imageWidth": 550,
-    "imageHeight": 3555,
-    "imageOffset": "50% 50%",
-    "year": 2025,
-    "tags": ["Project", "Animation"],
-    "audio": "",
-    "buttonText": "View on Youtube",
-    "target": "_blank",
-    "path": "https://youtu.be/umxPajkTJxY?si=k1kkfDngW40-QH2g"
-  },
-  {
-    "title": "Dome Animation",
-    "description": "TouchDesigner Visual for Dome projection. Internship at Planetarium Warszawa for a music festival",
-    "imagePath": "public/images/thumbnail/dome-animation-thumbnail.webp",
-    "imageAlt": "A frame of the animation. Depicting low poly 3D shape spinning and transforming around a point in space",
-    "imageWidth": 550,
-    "imageHeight": 3555,
-    "imageOffset": "50% 50%",
-    "year": 2025,
-    "tags": ["Project", "Animation"],
-    "audio": "",
-    "buttonText": "View on Youtube",
-    "target": "_blank",
-    "path": "https://youtu.be/EQ_KMXrsM3Q?si=oYxsVAk4WjlmAQDz"
   },
   {
     "title": "Run Nora Run",
